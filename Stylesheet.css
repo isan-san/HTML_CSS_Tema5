@@ -1,0 +1,23 @@
+#collage{
+    display: flex;
+    background-color: azure;
+    border: 3px solid black;
+    align-content: stretch;
+    flex-wrap: wrap;
+}
+.container {
+    display: flex;
+    width: 284px;
+    height: 284px;
+    background-color: aquamarine;
+    justify-content: space-around;
+    border: 3px solid gray;
+    margin: 5px;
+
+}
+img{
+    width: 280px;
+    padding: 5px;
+    height: auto;
+    object-fit: cover;
+}
